@@ -191,3 +191,31 @@ h1 {
     cursor: not-allowed;
 }
 
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .search-container input, .search-container button, .sort-container select {
+        width: 100%;
+    }
+    
+    .book-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .book-img-container img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+}
